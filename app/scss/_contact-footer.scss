@@ -1,0 +1,55 @@
+@import 'social-icons';
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Roboto+Slab', 'sans-serif';
+
+    p {
+        font-size: 20px;
+    }
+
+    .formularz {
+        padding: 50px;
+
+        .contact-form {
+            height: 200px;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            input {
+                height: 50px;
+            }
+        }
+        .input-inner {
+            border-radius: 5px;
+            padding: 10px;
+            border: none;
+            text-transform: uppercase;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+}
+
+footer {
+    .line-height {
+        line-height: 60px;
+        nav {
+            ul {
+                list-style: none;
+                margin: 0;
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

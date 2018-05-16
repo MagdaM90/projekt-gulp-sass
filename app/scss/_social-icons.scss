@@ -1,0 +1,15 @@
+.social-icons .fa {
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    transition: none;
+    margin: 5px;
+
+    &:hover {
+        background-color: #0ED8D6;
+        color: #fff;
+    }
+}

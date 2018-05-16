@@ -1,0 +1,29 @@
+@media all and (max-width 992px) {
+    #main-nav,
+    #main-nav.scrolled {
+        background-color: #fff;
+    }
+    #main nav a,
+    #main-nav.scrolled a {
+        color: #0ED8d6;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    #header .header-container-inner h1 {
+        font-size: 40px;
+    }
+    #header .header-container-inner h2 {
+        font-size: 30px;
+    }
+    #team .team-member {
+        margin-bottom: 20px;
+    }
+    textarea{
+        margin-top: 25px;
+    }
+    .footer-nav ul{
+        padding-left: 0;
+    }
+}
